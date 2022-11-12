@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <form>
+        <label for="megszolit">Megszólítás </label>
+        <select id="megszolit" name="megszolit">
+            <option value="doktor">Dr.</option>
+            <option value="idosebb">Idősebb</option>
+            <option value="ifjabb">Ifjabb</option>
+            <option value="özvegy">Özvegy</option>
+            <option value="nincs">-</option>
+        </select><br>
+        <label for="nev" >Név</label> 
+        <input  id="nev"    placeholder="Minta János" name="nev" type="text" required maxlength="50"><br>
+        <label for="pw">Jelszó</label> 
+        <input  id="pw" placeholder="********" name="pw" type="password" required minlength="6"><br>
+        <label for="nem">Nem:</label> <label for="nem">Férfi</label> <input  id="nem"  name="nem" type="radio" required>
+        <label for="nem">Nő</label>
+        <input  id="nem1"  name="nem1" type="radio" ><br>
+        <label for="date">Születési Dátum</label>
+        <input  id="date"  name="date" type="date" ><br>
+        <label for="mail">E-mail cím</label>
+        <input  id="mail" placeholder="minta@mail.com" name="mail" type="email"  required><br>
+        <label for="level">Hírlevél feliratkozás</label>
+        <input  id="level"  name="level" type="checkbox" required><br>
+        <label for="egyeb">Egyéb közlendő</label>
+        <input  id="egyeb"  name="egyeb" type="text"  ><br>
+        <input type="submit"><input type="reset">
+
+        
+
+        
+    </form>
+</body>
+</html>

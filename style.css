@@ -1,0 +1,10 @@
+input:invalid{
+    background-color:#FFCCCC;
+    color:red
+}
+:required{
+    background-color: #FFFFCC;
+}
+label{
+    color:black
+}
